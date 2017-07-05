@@ -4,7 +4,7 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://52.187.0.56:80/",
-      "sslPort": 80
+      "sslPort": 0
     }
   },
   "profiles": {
@@ -18,7 +18,7 @@
     "SampleappVS": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchUrl": "http://localhost:80",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
